@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrendBite Services – SMM Panel</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Affordable social media marketing services delivered fast. Order followers, likes and more for Instagram, TikTok, YouTube and other platforms." />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="logo">TrendBite Services</h1>
+      <p class="tagline">Grow your social presence quickly and affordably</p>
+      <a href="#catalog" class="cta">Browse Services</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Catalog Section -->
+    <section id="catalog" class="catalog-section">
+      <div class="container">
+        <h2>Services Catalog</h2>
+        <input type="text" id="searchInput" placeholder="Search services…" />
+        <div id="categoryChips" class="chips"></div>
+        <div id="servicesList" class="services-list"></div>
+      </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order-section">
+      <div class="container">
+        <h2>Place Order</h2>
+        <form id="orderForm">
+          <label for="serviceSelect">Service</label>
+          <select id="serviceSelect" required></select>
+
+          <label for="quantityInput">Quantity</label>
+          <input type="number" id="quantityInput" min="1" value="" placeholder="Enter quantity" required />
+
+          <label for="linkInput">Link/Username</label>
+          <input type="text" id="linkInput" placeholder="Paste link or @username" required />
+
+          <div class="order-info">
+            <span id="priceInfo">Total: PKR 0</span>
+            <span id="etaInfo">ETA: –</span>
+          </div>
+
+          <button type="submit" id="submitButton">Order &amp; Go to WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section class="faq-section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+          <summary>How long does delivery take?</summary>
+          <p>Delivery times vary by service. The ETA displayed on the order form gives an approximate time in minutes.</p>
+        </details>
+        <details>
+          <summary>Is there a refill or refund guarantee?</summary>
+          <p>Yes. We offer a 30‑day refill or refund window on most services. Contact us via WhatsApp if you have issues.</p>
+        </details>
+        <details>
+          <summary>What payment methods are supported?</summary>
+          <p>Currently we support WhatsApp checkout. Simply place your order and complete the transaction via WhatsApp.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Have questions or need help? Chat with us on WhatsApp 24/7.</p>
+        <a href="https://wa.me/923193840214" class="whatsapp-link" target="_blank">Message on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Sticky CTA Bar -->
+  <div id="stickyBar" class="sticky-bar hidden">
+    <div class="bar-content">
+      <span id="stickyService">Select a service</span>
+      <span id="stickyPrice">PKR 0</span>
+    </div>
+    <button id="stickyButton">WhatsApp Order Now</button>
+  </div>
+
+  <!-- Exit Intent Modal -->
+  <div id="exitModal" class="modal hidden">
+    <div class="modal-content">
+      <h3>Wait! Don't leave yet</h3>
+      <p>Enter your WhatsApp number and we'll send you our latest deals.</p>
+      <input type="tel" id="leadNumber" placeholder="WhatsApp number" />
+      <button id="leadSubmit">Submit</button>
+      <button id="leadClose" class="secondary">Close</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <!-- Placeholders for analytics and chat. Replace IDs in README instructions -->
+  <!-- Cloudflare / Google Analytics script placeholder -->
+  <!-- <script defer src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script> -->
+  <!-- Tawk.to Widget placeholder (replace property ID in README) -->
+  <!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/PROPERTY_ID/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script> -->
+</body>
+</html>
