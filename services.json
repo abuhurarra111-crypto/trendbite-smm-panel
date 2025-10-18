@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "service": "Instagram Followers",
+    "category": "Instagram",
+    "price": 500,
+    "min": 100,
+    "max": 10000,
+    "avg": 60,
+    "desc": "Real followers for Instagram accounts."
+  },
+  {
+    "id": "2",
+    "service": "Instagram Likes",
+    "category": "Instagram",
+    "price": 200,
+    "min": 50,
+    "max": 5000,
+    "avg": 30,
+    "desc": "Instant likes on your posts."
+  },
+  {
+    "id": "3",
+    "service": "Instagram Views",
+    "category": "Instagram",
+    "price": 100,
+    "min": 100,
+    "max": 10000,
+    "avg": 15,
+    "desc": "Views for your Instagram videos."
+  },
+  {
+    "id": "4",
+    "service": "TikTok Followers",
+    "category": "TikTok",
+    "price": 400,
+    "min": 100,
+    "max": 10000,
+    "avg": 60,
+    "desc": "Followers for TikTok profiles."
+  },
+  {
+    "id": "5",
+    "service": "TikTok Likes",
+    "category": "TikTok",
+    "price": 150,
+    "min": 100,
+    "max": 5000,
+    "avg": 20,
+    "desc": "Likes for TikTok videos."
+  },
+  {
+    "id": "6",
+    "service": "TikTok Views",
+    "category": "TikTok",
+    "price": 80,
+    "min": 200,
+    "max": 20000,
+    "avg": 10,
+    "desc": "Boost your TikTok views."
+  },
+  {
+    "id": "7",
+    "service": "YouTube Subscribers",
+    "category": "YouTube",
+    "price": 600,
+    "min": 50,
+    "max": 5000,
+    "avg": 120,
+    "desc": "Subscribers for your YouTube channel."
+  },
+  {
+    "id": "8",
+    "service": "YouTube Views",
+    "category": "YouTube",
+    "price": 90,
+    "min": 100,
+    "max": 10000,
+    "avg": 20,
+    "desc": "Increase your YouTube video views."
+  },
+  {
+    "id": "9",
+    "service": "Twitter Followers",
+    "category": "Twitter",
+    "price": 350,
+    "min": 100,
+    "max": 10000,
+    "avg": 60,
+    "desc": "Followers for Twitter accounts."
+  },
+  {
+    "id": "10",
+    "service": "Facebook Page Likes",
+    "category": "Facebook",
+    "price": 300,
+    "min": 50,
+    "max": 10000,
+    "avg": 45,
+    "desc": "Page likes for Facebook pages."
+  }
+]
